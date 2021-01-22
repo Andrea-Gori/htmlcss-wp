@@ -39,13 +39,32 @@ header {
   margin-top: 10px;
 }
 
+/* banner1 */
+
 .banner1 {
-  background-image: url(./assets/img/banner.jpg);
+  background-color: rgb(254, 235, 228);
+  background-image: url(../img/banner.jpg);
   width: 100%;
-  height: auto;
+  /* height: 538px; */
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.sub-banner1 {
+  color: white;
+  background-color: rgba(203, 195, 193, 0.5);
+  height: 100%;
+  border-radius: 10px;
+}
 
+.title-container {
+  padding: 21% 2em 4%;
+}
+
+.immage-title {
+  width: 45%;
+}
 
 /* Backgrounds */
 
