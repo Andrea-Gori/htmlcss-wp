@@ -65,20 +65,37 @@ header {
   width: 45%;
 }
 
-/* Backgrounds */
+/* Main */
 
-.bg-blue {
-  background-color: rgb(0, 141, 255);
-  height: 500px;
+.main-title {
+  font-size: 2em;
 }
 
-.bg-lightblue {
-  background-color: rgb(171, 207, 231);
+.gray {
+  color: lightgray;
 }
 
-.bg-purple{
-  background-color: rgb(136, 1, 254);
-  height: 50px;
+.img-width {
+  width: 100%;
+}
+
+.img-height {
+  height: 240px;
+}
+
+.banner2 {
+  width: 90%;
+  height: 25%;
+}
+
+/* Footer */
+
+.center {
+  text-align: center;
+}
+
+.heart {
+  color: red;
 }
 
 /* Column's dettails */
@@ -88,18 +105,12 @@ header {
 
 .col-17 {
   width: 17%;
-  height: 310px;
 }
 
 .col-60 {
   width: 60%;
-  height: 310px;
 }
 
-.alternative-height {
-  height: 150px;
-  margin-bottom: 20px;
-}
 
 /* extra */
 .mt-1 {
@@ -107,4 +118,16 @@ header {
 }
 .mlr {
   margin: 0 3%;
+}
+
+.ml-1 {
+  margin-left: 2em;
+}
+
+.ml-2 {
+  margin-left: 2em;
+}
+
+.mr-1{
+  margin-right: 2em;
 }
